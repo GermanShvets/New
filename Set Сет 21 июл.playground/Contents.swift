@@ -68,3 +68,4 @@ adigit.isSuperset(of: testset)
 // Если есть хоть одно общее значение то пишет false
 adigit.isDisjoint(with: testset)
 testset.isDisjoint(with: adigit)
+

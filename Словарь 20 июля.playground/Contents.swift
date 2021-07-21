@@ -42,3 +42,13 @@ for value in phonebook2.values{     //  выводим номера  (значе
 for (key,value) in phonebook2{
     print("Имя - \(key), Номер \(value)")
 }
+
+// Выводим 2 значения кей и значения
+for (key,value) in phonebook2{
+    print("Имя - \(key), Номер \(value)")
+}
+
+// Выводим 2 значения кей и значения
+for (key,value) in phonebook2{
+    print("Имя - \(key), Номер \(value)")
+}
