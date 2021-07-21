@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		049950FD26A7573D00C7CD92 /* Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Training.app; path = "/Users/mac/.ssh/Training/build/Debug-iphoneos/Training.app"; sourceTree = "<absolute>"; };
 		049950FE26A7575300C7CD92 /* Массив 20 июл.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Массив 20 июл.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		049950FF26A757B900C7CD92 /* Опциональные типы 20 июл.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Опциональные типы 20 июл.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0499510026A757DC00C7CD92 /* Словарь 20 июля.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Словарь 20 июля.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0499510226A82CE000C7CD92 /* Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Training.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0499510326A83BA100C7CD92 /* Set Сет 21 июл.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Set Сет 21 июл.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,9 +28,11 @@
 		049950DA26A7538D00C7CD92 = {
 			isa = PBXGroup;
 			children = (
+				0499510326A83BA100C7CD92 /* Set Сет 21 июл.playground */,
 				0499510026A757DC00C7CD92 /* Словарь 20 июля.playground */,
 				049950FF26A757B900C7CD92 /* Опциональные типы 20 июл.playground */,
 				049950FE26A7575300C7CD92 /* Массив 20 июл.playground */,
+				0499510226A82CE000C7CD92 /* Training.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,7 +53,7 @@
 			);
 			name = Training;
 			productName = Training;
-			productReference = 049950FD26A7573D00C7CD92 /* Training.app */;
+			productReference = 0499510226A82CE000C7CD92 /* Training.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
