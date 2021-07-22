@@ -3,15 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXFileReference section */
-		049950FE26A7575300C7CD92 /* Массив 20 июл.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Массив 20 июл.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		049950FF26A757B900C7CD92 /* Опциональные типы 20 июл.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Опциональные типы 20 июл.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		0499510026A757DC00C7CD92 /* Словарь 20 июля.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Словарь 20 июля.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		0499510226A82CE000C7CD92 /* Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Training.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0499510326A83BA100C7CD92 /* Set Сет 21 июл.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Set Сет 21 июл.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		048C3C4C26A9BEFA00579D20 /* Функции.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Функции.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		048C3C4D26A9BF8F00579D20 /* Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Training.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048C3C4F26A9C05F00579D20 /* Кортежи.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Кортежи.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		049950FE26A7575300C7CD92 /* Массив.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Массив.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		049950FF26A757B900C7CD92 /* Опциональные типы.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Опциональные типы.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0499510026A757DC00C7CD92 /* Словарь .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Словарь .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0499510326A83BA100C7CD92 /* Сеты .playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Сеты .playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		0499510426A851D600C7CD92 /* Операторы ветвления.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Операторы ветвления.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -29,14 +31,17 @@
 		049950DA26A7538D00C7CD92 = {
 			isa = PBXGroup;
 			children = (
-				0499510326A83BA100C7CD92 /* Set Сет 21 июл.playground */,
-				0499510026A757DC00C7CD92 /* Словарь 20 июля.playground */,
-				049950FF26A757B900C7CD92 /* Опциональные типы 20 июл.playground */,
-				049950FE26A7575300C7CD92 /* Массив 20 июл.playground */,
-				0499510226A82CE000C7CD92 /* Training.app */,
+				048C3C4F26A9C05F00579D20 /* Кортежи.playground */,
+				048C3C4C26A9BEFA00579D20 /* Функции.playground */,
+				0499510326A83BA100C7CD92 /* Сеты .playground */,
+				0499510026A757DC00C7CD92 /* Словарь .playground */,
+				049950FF26A757B900C7CD92 /* Опциональные типы.playground */,
+				049950FE26A7575300C7CD92 /* Массив.playground */,
 				0499510426A851D600C7CD92 /* Операторы ветвления.playground */,
+				048C3C4D26A9BF8F00579D20 /* Training.app */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXGroup section */
 
@@ -55,7 +60,7 @@
 			);
 			name = Training;
 			productName = Training;
-			productReference = 0499510226A82CE000C7CD92 /* Training.app */;
+			productReference = 048C3C4D26A9BF8F00579D20 /* Training.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -73,7 +78,7 @@
 				};
 			};
 			buildConfigurationList = 049950DE26A7538D00C7CD92 /* Build configuration list for PBXProject "Training" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -230,7 +235,6 @@
 		049950F826A7539100C7CD92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Training/Info.plist;
@@ -241,14 +245,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Training.Training;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		049950F926A7539100C7CD92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Training/Info.plist;
@@ -259,7 +262,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Training.Training;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

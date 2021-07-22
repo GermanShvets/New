@@ -7,6 +7,11 @@ var phonebook1 = [String:String]()
 
 var phonebook2 = ["Герман":"+123","Иван":"+123321","Васек":"+79990000000"]
 
+
+//
+
+//
+
 phonebook2["Герман"] = "+7123456789" // Меняем значение в массиве
 
 
@@ -38,17 +43,8 @@ for value in phonebook2.values{     //  выводим номера  (значе
     print(value)
 }
 
-// Выводим 2 значения кей и значения
+
 for (key,value) in phonebook2{
     print("Имя - \(key), Номер \(value)")
 }
 
-// Выводим 2 значения кей и значения
-for (key,value) in phonebook2{
-    print("Имя - \(key), Номер \(value)")
-}
-
-// Выводим 2 значения кей и значения
-for (key,value) in phonebook2{
-    print("Имя - \(key), Номер \(value)")
-}
